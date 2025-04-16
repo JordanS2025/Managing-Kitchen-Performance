@@ -1,6 +1,18 @@
 # Name: Ben Croyle
 # Topic: Decision Theory
 
+from hmm import KitchenHMM
+from hmm import hmm
+
+result = hmm()
+if result == ("fast", "low"):
+    print("Business is going well as usual")
+if result == ("average", "medium"):
+    print("We may need some help")
+if result == ("slow", "high"):
+    print("Please send help ASAP")
+
+
 graph = [[0.25, 0.35, 0.4], [0.35, 0.15, 0.5], [0.4, 0.5, 0.1]]
 if graph[0][0] >= 5:
     print("Discounts are available")
