@@ -1,7 +1,7 @@
 # Name: Ben Croyle
 # Topic: Decision Theory
+# Purpose: Output a message saying what to do based on how much on track the kitchen staff is.
 
-from hmm import KitchenHMM
 from hmm import hmm
 
 def DecisionTheory():
